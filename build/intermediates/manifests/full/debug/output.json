@@ -1,1 +1,1 @@
-[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10000},"path":"AndroidManifest.xml","properties":{"packageId":"com.yourname.workshop","split":"","minSdkVersion":"16"}}]
+[{"outputType":{"type":"MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":10000},"path":"AndroidManifest.xml","properties":{"packageId":"com.run.test","split":"","minSdkVersion":"16"}}]
