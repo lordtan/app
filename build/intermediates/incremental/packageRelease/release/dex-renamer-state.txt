@@ -1,0 +1,4 @@
+#Tue Mar 13 13:57:33 CST 2018
+base.0=/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/transforms/dex/release/0
+renamed.0=classes.dex
+file.0=/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/transforms/dex/release/0/classes.dex
