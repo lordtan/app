@@ -12,12 +12,12 @@
         "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/drawable-xhdpi/ic_action_next_item.png"
     },
     {
-        "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
-        "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
-    },
-    {
         "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/mipmap-ldpi_icon.png.flat",
         "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/mipmap-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-xhdpi_screen.png.flat",
+        "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/drawable-land-xhdpi/screen.png"
     },
     {
         "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_remove.png.flat",
@@ -28,12 +28,12 @@
         "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/drawable-xxhdpi/ic_action_previous_item.png"
     },
     {
-        "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
-        "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
-    },
-    {
         "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/drawable-land-mdpi_screen.png.flat",
         "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/drawable-land-mdpi/screen.png"
+    },
+    {
+        "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_icon.png.flat",
+        "source": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
         "merged": "/Users/tanluole/Documents/Android_ws/workshop/platforms/android/app/build/intermediates/res/merged/debug/drawable-port-xxhdpi_screen.png.flat",

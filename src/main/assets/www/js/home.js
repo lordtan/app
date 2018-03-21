@@ -8,11 +8,11 @@ $(document).ready(function(){
          cordova.exec(success, fail, "jsTest", "speak", ["你好啊佩奇"]);
     });
     var success = function(message){
-            alert("success = "+message);
-         };
+	    alert("success = "+message);
+	};
     var fail = function(message){
-            alert("fail = "+message);
-         };
+        alert("fail = "+message);
+    };
 	
 	//监听信息按钮点击
 	$("#messageHref").bind("click",function(){

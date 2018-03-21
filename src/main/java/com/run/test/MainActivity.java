@@ -37,5 +37,29 @@ public class MainActivity extends CordovaActivity
 
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
+        invokeJs(); //测试调用前端js
+    }
+
+    /**
+     * 测试后台调用当前WebView中的js方法
+     */
+    private void invokeJs(){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(10000);
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            //不能在子线程中执行webview的方法
+                            loadUrl("javascript:acceptAndroid(\"你好啊乔治\")");
+                        }
+                    });
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 }

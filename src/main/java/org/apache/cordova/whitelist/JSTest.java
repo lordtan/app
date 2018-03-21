@@ -21,7 +21,7 @@ public class JSTest extends CordovaPlugin {
             //speechSynthesize
             String content = args.getString(0);
             speak(content);
-            callbackContext.success("调用后台成功");//如果不调用success回调，则js中successCallback不会执行
+            callbackContext.success("乔治不想回家");//如果不调用success回调，则js中successCallback不会执行
             return true;
         }
         return false;

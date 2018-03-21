@@ -1,3 +1,23 @@
+$(document).ready(function(){
+	    window.location.href="home.html"; //这个是ok的
+	
+        var code = genVarifyCode(); //当前生成的验证码
+    	    
+    	    $("#mycanvas").click(function(){
+    	    	    code = genVarifyCode();
+    	    	});
+    	    
+    	    $("#code_button").click(function(){
+    	    	    var codeInput = $("#code_input").val();
+    	    	    if(code==codeInput){
+    	    	    	   window.location.href="home.html";
+    	    	    }else{
+    	    	    	   alert("您输入的验证码错误，请重新输入");
+    	    	    	   code = genVarifyCode();
+    	    	    }
+    	    });
+});
+
 var app = {
     // Application Constructor
     initialize: function() {
@@ -6,11 +26,21 @@ var app = {
     	    //$.mobile.changePage ('pageSwitch.html')
     	    //3秒后自动跳转
     	    //setTimeout(function () {
-    	    	   window.location.href="home.html"; //这个是ok的
+    	    //	   window.location.href="home.html"; //这个是ok的
            //要处理的语句
         //},3000);
     	    
+    	    var code = genVarifyCode();
     	    
+    	    $("#mycanvas").click(function(){
+    	    	    code = genVarifyCode();
+    	    	});
+    	    
+    	    $("#code_button").click(function(){
+    	    	    alert("1111");
+    	    	    var codeInput = $("#code_input").val();
+    	    	    alert(code+"-"+codeInput);
+    	    });
     	    
     	    
     	    //cordova.InAppBrowser.open('success.html', '_blank', 'location=no,toolbar=yes,toolbarposition=top,closebuttoncaption=关闭');
@@ -44,6 +74,6 @@ var app = {
     }
 };
 
-app.initialize();  //初始化
+//app.initialize();  //初始化
 
 
